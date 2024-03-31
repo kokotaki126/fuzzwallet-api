@@ -1,0 +1,17 @@
+[package]
+name = "multisig"
+version = "1.0.0"
+authors = []
+
+[addresses]
+multisig = "_"
+
+[dev-addresses]
+multisig = "0x100"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
